@@ -13,6 +13,7 @@ const PORT = process.env.PORT || 5000;
 const allowedOrigins = [
     'https://eatseefoods.com', 
     'https://www.eatseefoods.com',
+    'https://eatsee-frontend.pages.dev', // Cloudflare pages dev domain
     'http://localhost:3000', // React default
     'http://localhost:5173'  // Vite default
 ];
