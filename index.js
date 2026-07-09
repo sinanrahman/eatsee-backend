@@ -46,6 +46,11 @@ reviewSchema.set('toJSON', {
 
 const Review = mongoose.model('Review', reviewSchema);
 
+// Root route to check if server is running
+app.get('/', (req, res) => {
+  res.send('Server is running!');
+});
+
 // API Routes for Reviews
 
 // GET /api/reviews
