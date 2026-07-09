@@ -103,3 +103,6 @@ connectDB().then(() => {
         console.log(`Server running on port ${PORT}`);
     });
 });
+
+// Export the app for serverless deployment (like Vercel)
+module.exports = app;
